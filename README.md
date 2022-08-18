@@ -1,3 +1,6 @@
+# Modification of The Ear Tool by Harbin Repairs, to use materials I had available for the build. Optimized for ordering from JLCPCB. Moved the amplifier near the signal source to reduce crosstalk.
+-Brian Markley EIT RSE
+
 # The Ear Tool
 
 Model: ET-1
