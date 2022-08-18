@@ -1,27 +1,43 @@
-Cmp-Mod V01 Created by PcbNew   date = Tuesday, November 27, 2018 'PMt' 11:36:18 PM
-
-BeginCmp
-TimeStamp = 5BAD0AF1
-Path = /5B89F5B9
-Reference = C1;
-ValeurCmp = 4.7uF;
-IdModule  = Capacitors_THT:C_Radial_D5_L6_P2.5;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BAD0AF7
-Path = /5B89F65A
-Reference = C2;
-ValeurCmp = 220uF;
-IdModule  = Capacitors_THT:C_Radial_D5_L6_P2.5;
-EndCmp
+Cmp-Mod V01 Created by PcbNew   date = Wed 15 Dec 2021 07:07:15 AM
 
 BeginCmp
 TimeStamp = 5BAD0AFD
 Path = /5BA69078
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-5MM;
+IdModule  = LED_THT:LED_D5.0mm_Clear;
+EndCmp
+
+BeginCmp
+TimeStamp = 61B938A1
+Path = /5BAC4D81
+Reference = RV1;
+ValeurCmp = 10k;
+IdModule  = Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 61B9331B
+Path = /5B89F65A
+Reference = C2;
+ValeurCmp = 220uF;
+IdModule  = Capacitor_SMD:CP_Elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = 61B9428D
+Path = 
+Reference = REF***;
+ValeurCmp = OSHW-Logo2_7.3x6mm_SilkScreen;
+IdModule  = Symbol:OSHW-Logo2_7.3x6mm_SilkScreen;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C5074E5
+Path = 
+Reference = REF***;
+ValeurCmp = OSHW-Logo2_7.3x6mm_SilkScreen;
+IdModule  = Symbol:OSHW-Logo2_7.3x6mm_SilkScreen;
 EndCmp
 
 BeginCmp
@@ -29,61 +45,85 @@ TimeStamp = 5BAD0B03
 Path = /5B89F88A
 Reference = LS1;
 ValeurCmp = Speaker;
-IdModule  = Oddities:NetTie-I_SMD;
+IdModule  = SurfaceConnector:Surface Connector;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BAD0B17
-Path = /5BAC28C2
-Reference = P2;
-ValeurCmp = Sensor Connector;
-IdModule  = Oddities:NetTie-I_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BAD0B1D
+TimeStamp = 61B938C2
 Path = /5BA6951F
 Reference = P3;
 ValeurCmp = 9V Battery Clip;
-IdModule  = Oddities:NetTie-I_SMD;
+IdModule  = SurfaceConnector:Surface Connector;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BAD0B3C
+TimeStamp = 61B914C2
+Path = /5BD28C3D
+Reference = R2;
+ValeurCmp = 100;
+IdModule  = Resistor_SMD:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 61B93854
+Path = /5BA690F1
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Resistor_SMD:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 61B937B2
+Path = /61B8A6BF
+Reference = C3;
+ValeurCmp = 0u1;
+IdModule  = Capacitor_SMD:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 61B93782
+Path = /5C2ECD1A
+Reference = C1;
+ValeurCmp = 4.7uF;
+IdModule  = Capacitor_SMD:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 61B936F3
 Path = /5BA6D851
 Reference = SW1;
 ValeurCmp = Power Switch;
-IdModule  = myFootprints:SW_SPDT_3P_11.1mm_5.5mm;
+IdModule  = Switch:SPDT_generic_toggle;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BAD0B43
+TimeStamp = 61B937E6
 Path = /5BA6D982
 Reference = SW2;
 ValeurCmp = Full Scope Switch;
-IdModule  = myFootprints:SW_SPDT_3P_11.1mm_5.5mm;
+IdModule  = Switch:SPDT_generic_toggle;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BAD0B4F
-Path = /5B89DD93
-Reference = U1;
-ValeurCmp = LM386;
-IdModule  = Housings_DIP:DIP-8_W7.62mm;
+TimeStamp = 61B93735
+Path = /5C2EC483
+Reference = SW3;
+ValeurCmp = Gain Switch;
+IdModule  = Switch:SPDT_generic_toggle;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BAD0B23
-Path = /5BA690F1
-Reference = R1;
-ValeurCmp = 4.7k;
-IdModule  = Resistors_THT:Resistor_Horizontal_RM10mm;
+TimeStamp = 61B942CA
+Path = 
+Reference = G1;
+ValeurCmp = LOGO;
+IdModule  = myFootprints:HR_LOGO_37.4x10.6mm;
 EndCmp
 
 BeginCmp
 TimeStamp = 5BAE4FE8
 Path = 
-Reference = [NoRef];
+Reference = M1;
 ValeurCmp = MountingHole_3mm_Pad;
 IdModule  = Mounting_Holes:MountingHole_3mm_Pad;
 EndCmp
@@ -91,7 +131,7 @@ EndCmp
 BeginCmp
 TimeStamp = 5BAE4FF0
 Path = 
-Reference = [NoRef];
+Reference = M2;
 ValeurCmp = MountingHole_3mm_Pad;
 IdModule  = Mounting_Holes:MountingHole_3mm_Pad;
 EndCmp
@@ -99,7 +139,7 @@ EndCmp
 BeginCmp
 TimeStamp = 5BAE4FF5
 Path = 
-Reference = [NoRef];
+Reference = M4;
 ValeurCmp = MountingHole_3mm_Pad;
 IdModule  = Mounting_Holes:MountingHole_3mm_Pad;
 EndCmp
@@ -107,49 +147,25 @@ EndCmp
 BeginCmp
 TimeStamp = 5BAE4FFA
 Path = 
-Reference = [NoRef];
+Reference = M3;
 ValeurCmp = MountingHole_3mm_Pad;
 IdModule  = Mounting_Holes:MountingHole_3mm_Pad;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BAE95B0
-Path = 
-Reference = G***;
-ValeurCmp = LOGO;
-IdModule  = myFootprints:HR_LOGO_37.4x10.6mm;
-EndCmp
-
-BeginCmp
 TimeStamp = 5BAEC958
 Path = 
-Reference = G***;
+Reference = G3;
 ValeurCmp = LOGO;
 IdModule  = myFootprints:Ear_icon_4.2x4.2mm;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BAEE054
+TimeStamp = 61B94321
 Path = 
-Reference = G***;
+Reference = G2;
 ValeurCmp = LOGO;
 IdModule  = myFootprints:HR_LOGO_37.4x10.6mm;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BAD0B2C
-Path = /5BAC4D81
-Reference = RV1;
-ValeurCmp = 10k;
-IdModule  = myFootprints:POT_RV09_HORIZONTAL_WHO9;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BD3A9C6
-Path = /5BD28C3D
-Reference = R2;
-ValeurCmp = 100;
-IdModule  = Resistors_THT:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
@@ -158,6 +174,22 @@ Path = /5BAC44CA
 Reference = P1;
 ValeurCmp = AUDIO-JACK-3F07-TRS;
 IdModule  = myFootprints:AUDIO-JACK-3F07-TRS;
+EndCmp
+
+BeginCmp
+TimeStamp = 61B9381A
+Path = /5B89DD93
+Reference = U1;
+ValeurCmp = LM386;
+IdModule  = SMD_Packages:SOIC-8-N;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BAD0B17
+Path = /5BAC28C2
+Reference = P2;
+ValeurCmp = Sensor Connector;
+IdModule  = TerminalBlock_RND:TerminalBlock_RND_205-00232_Pitch5.08mm;
 EndCmp
 
 EndListe

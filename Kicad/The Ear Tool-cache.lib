@@ -39,6 +39,24 @@ X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_LED
 #
 DEF Device_LED D 0 40 N N 1 F N
@@ -52,9 +70,9 @@ $FPLIST
  LED_THT:*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 10 -50 -50 -50 50 N
 P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
 P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
 P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
 X K 1 -150 0 100 R 50 50 1 1 P
@@ -94,35 +112,11 @@ X 2 2 -200 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Switch1_SW_DPDT_x2
+# The-Ear-Tool-rescue_AUDIO-JACK-3F07-TRS-The-Ear-Tool-rescue
 #
-DEF Switch1_SW_DPDT_x2 SW 0 0 Y N 2 F N
-F0 "SW" 0 170 50 H V C CNN
-F1 "Switch1_SW_DPDT_x2" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SW*DPDT*
-$ENDFPLIST
-DRAW
-C -80 0 20 0 0 0 N
-C 80 -100 20 0 0 0 N
-C 80 100 20 0 1 0 N
-P 2 0 1 0 -60 10 65 90 N
-X A 1 200 100 100 L 50 50 1 1 P
-X B 2 -200 0 100 R 50 50 1 1 P
-X C 3 200 -100 100 L 50 50 1 1 P
-X A 4 200 100 100 L 50 50 2 1 P
-X B 5 -200 0 100 R 50 50 2 1 P
-X C 6 200 -100 100 L 50 50 2 1 P
-ENDDRAW
-ENDDEF
-#
-# The-Ear-Tool-rescue_AUDIO-JACK-3F07-TRS
-#
-DEF The-Ear-Tool-rescue_AUDIO-JACK-3F07-TRS P 0 40 Y Y 1 F N
+DEF The-Ear-Tool-rescue_AUDIO-JACK-3F07-TRS-The-Ear-Tool-rescue P 0 40 Y Y 1 F N
 F0 "P" -50 350 60 H V L CNN
-F1 "The-Ear-Tool-rescue_AUDIO-JACK-3F07-TRS" -550 -350 60 H V L CNN
+F1 "The-Ear-Tool-rescue_AUDIO-JACK-3F07-TRS-The-Ear-Tool-rescue" -550 -350 60 H V L CNN
 F2 "" -150 -150 60 H V C CNN
 F3 "" -150 -150 60 H V C CNN
 DRAW
@@ -143,11 +137,11 @@ X TIP 5 400 -200 200 L 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# The-Ear-Tool-rescue_CONN_01X02
+# The-Ear-Tool-rescue_CONN_01X02-The-Ear-Tool-rescue
 #
-DEF The-Ear-Tool-rescue_CONN_01X02 P 0 40 Y N 1 F N
+DEF The-Ear-Tool-rescue_CONN_01X02-The-Ear-Tool-rescue P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "The-Ear-Tool-rescue_CONN_01X02" 100 0 50 V V C CNN
+F1 "The-Ear-Tool-rescue_CONN_01X02-The-Ear-Tool-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -165,11 +159,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# The-Ear-Tool-rescue_LM386
+# The-Ear-Tool-rescue_LM386-The-Ear-Tool-rescue
 #
-DEF The-Ear-Tool-rescue_LM386 U 0 10 Y Y 1 F N
+DEF The-Ear-Tool-rescue_LM386-The-Ear-Tool-rescue U 0 10 Y Y 1 F N
 F0 "U" 50 300 50 H V L CNN
-F1 "The-Ear-Tool-rescue_LM386" 50 200 50 H V L CNN
+F1 "The-Ear-Tool-rescue_LM386-The-Ear-Tool-rescue" 50 200 50 H V L CNN
 F2 "" 100 100 50 H I C CNN
 F3 "" 200 200 50 H I C CNN
 $FPLIST
@@ -193,11 +187,11 @@ X ~ 8 100 -300 150 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# The-Ear-Tool-rescue_POT
+# The-Ear-Tool-rescue_POT-The-Ear-Tool-rescue
 #
-DEF The-Ear-Tool-rescue_POT RV 0 40 N N 1 F N
+DEF The-Ear-Tool-rescue_POT-The-Ear-Tool-rescue RV 0 40 N N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "The-Ear-Tool-rescue_POT" -100 0 50 V V C CNN
+F1 "The-Ear-Tool-rescue_POT-The-Ear-Tool-rescue" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -210,6 +204,30 @@ P 3 0 1 0 45 0 90 20 90 -20 F
 X 1 1 0 150 50 D 50 50 1 1 P
 X 2 2 150 0 50 L 50 50 1 1 P
 X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# The-Ear-Tool-rescue_SW_DPDT_x2-Switch1
+#
+DEF The-Ear-Tool-rescue_SW_DPDT_x2-Switch1 SW 0 0 Y N 2 F N
+F0 "SW" 0 170 50 H V C CNN
+F1 "The-Ear-Tool-rescue_SW_DPDT_x2-Switch1" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SW*DPDT*
+$ENDFPLIST
+DRAW
+C -80 0 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 1 0 N
+P 2 0 1 0 -60 10 65 90 N
+X A 1 200 100 100 L 50 50 1 1 P
+X B 2 -200 0 100 R 50 50 1 1 P
+X C 3 200 -100 100 L 50 50 1 1 P
+X A 4 200 100 100 L 50 50 2 1 P
+X B 5 -200 0 100 R 50 50 2 1 P
+X C 6 200 -100 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
